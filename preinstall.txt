@@ -1,0 +1,28 @@
+npm init
+npm  install bcrypt express jsonwebtoken mongoose nodemon
+
+
+npx expo-cli init tracks --npm
+
+npm install react-navigation --legacy-peer-deps
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install react-navigation-stack @react-native-community/masked-view --legacy-peer-deps
+npm install react-navigation-tabs --legacy-peer-deps
+expo r -c
+
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
+ 
+npm install --legacy-peer-deps
+npm install react-native-elements
+npm install axios
+npm install -g ngrok
+npx expo-cli install react-native-maps
+npx expo-cli install expo-location
+
+Note:*******
+npm install @react-native-async-storage/async-storage
+Then, update the import in AuthContext to this:
+import AsyncStorage from '@react-native-async-storage/async-storage';
